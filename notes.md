@@ -15,3 +15,18 @@
 ## Divide and Conquer
 - This pattern involves dividing a data set into smaller chunks and then repeating a process with a **subset** of data
 - This pattern can termendously **decrease time complexity**
+
+## Recursive
+### Important
+- Base Case
+- return right thing
+- stack overflow
+
+### Helper Method Recursion
+- result is an array
+
+### Pure Recursion
+- concat array before return
+- For array, methods like **slice, the spread operator, and concat** that **make copies of arrays** so you do not **mutate** them
+- Strings are immutable, use methods like **slice, substr, or substring** to make copies of strings
+- Make copies of objects use **Object.assign, or the spread operator**
